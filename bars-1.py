@@ -21,4 +21,8 @@ E=(210000000000)*np.ones(n)
 Rho=7800*np.ones(n) #density
 Modeno=3;
 #modeshape found
+PI=math.pi
 A=np.exp( 5+2*y*(np.sin(2*PI*y/L)) )*0.000001
+
+
+#RAN INTO ISSUES WITH sum(), resolving it.
